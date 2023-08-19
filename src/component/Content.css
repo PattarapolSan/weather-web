@@ -1,0 +1,77 @@
+#content {
+    height: 80%;
+    width: 95%;
+    background-color: lightgray;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#sub-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .loading-spinner .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+#minmax {
+    display: flex;
+    justify-content: space-around;
+    width: 15vw;
+}
+
+#minmax p{
+    font-size: 1.4rem;
+}
+  
+
+#riseSet {
+    display: flex;
+    justify-content: space-around;
+    width: 25vw;
+}
+
+#riseSet p{
+    font-size: 1.2rem;
+}
+  
+  
+  
+  
+  
+#weather-icon {
+    display: flex;
+    color: white;
+    font-size: 15vw;
+}
+
+#description {
+    font-size: 1.2rem;
+}
