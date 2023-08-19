@@ -38,7 +38,7 @@ const Main = () => {
             params: {
                 lat:  currLat,
                 lng:  currLong,
-                key: 'MF71TVBAE686',
+                key: {Api Key Here},
                 format: 'json',
                 by: 'position'
     
@@ -73,7 +73,7 @@ const Main = () => {
             params: {
                 lat:  currLat,
                 lon:  currLong,
-                appid: '668bbc3aca97dfcdee5e638e17bcb1e8',
+                appid: {Api Key Here},
                 units: 'metric'
             }
         };
